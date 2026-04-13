@@ -1,0 +1,452 @@
+[
+  {
+    "step": 100,
+    "val_loss": 8.7154,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.53,
+    "domain_losses": {
+      "cora": 8.6763,
+      "general": 9.3044,
+      "empathy": 8.7895,
+      "muse": 8.8139,
+      "forge_c": 8.6591,
+      "axiom": 8.179
+    }
+  },
+  {
+    "step": 200,
+    "val_loss": 6.8099,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.685,
+    "domain_losses": {
+      "cora": 6.7508,
+      "general": 7.7612,
+      "empathy": 6.8482,
+      "muse": 7.0552,
+      "forge_c": 6.6874,
+      "axiom": 5.8812
+    }
+  },
+  {
+    "step": 300,
+    "val_loss": 6.2303,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.77,
+    "domain_losses": {
+      "cora": 6.1153,
+      "general": 7.529,
+      "empathy": 6.2694,
+      "muse": 6.6605,
+      "forge_c": 6.2172,
+      "axiom": 4.7478
+    }
+  },
+  {
+    "step": 400,
+    "val_loss": 6.0758,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.825,
+    "domain_losses": {
+      "cora": 5.9085,
+      "general": 7.4334,
+      "empathy": 6.1588,
+      "muse": 6.5228,
+      "forge_c": 6.0416,
+      "axiom": 4.5863
+    }
+  },
+  {
+    "step": 500,
+    "val_loss": 5.9128,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.856,
+    "domain_losses": {
+      "cora": 5.7656,
+      "general": 7.3164,
+      "empathy": 6.0038,
+      "muse": 6.4012,
+      "forge_c": 5.9937,
+      "axiom": 4.0354
+    }
+  },
+  {
+    "step": 600,
+    "val_loss": 5.7128,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.8783,
+    "domain_losses": {
+      "cora": 5.6005,
+      "general": 7.2999,
+      "empathy": 5.7384,
+      "muse": 6.2363,
+      "forge_c": 5.7644,
+      "axiom": 3.6853
+    }
+  },
+  {
+    "step": 700,
+    "val_loss": 5.4921,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.8957,
+    "domain_losses": {
+      "cora": 5.4407,
+      "general": 7.1685,
+      "empathy": 5.4102,
+      "muse": 6.0067,
+      "forge_c": 5.5618,
+      "axiom": 3.4079
+    }
+  },
+  {
+    "step": 800,
+    "val_loss": 5.2318,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9087,
+    "domain_losses": {
+      "cora": 5.1488,
+      "general": 7.0141,
+      "empathy": 5.2248,
+      "muse": 5.7039,
+      "forge_c": 5.2639,
+      "axiom": 3.1717
+    }
+  },
+  {
+    "step": 900,
+    "val_loss": 4.9759,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9167,
+    "domain_losses": {
+      "cora": 4.9387,
+      "general": 6.8077,
+      "empathy": 4.8447,
+      "muse": 5.4951,
+      "forge_c": 4.9935,
+      "axiom": 2.9023
+    }
+  },
+  {
+    "step": 1000,
+    "val_loss": 4.7191,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.925,
+    "domain_losses": {
+      "cora": 4.7567,
+      "general": 6.6345,
+      "empathy": 4.5558,
+      "muse": 5.1462,
+      "forge_c": 4.7329,
+      "axiom": 2.6664
+    }
+  },
+  {
+    "step": 1100,
+    "val_loss": 4.458,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9318,
+    "domain_losses": {
+      "cora": 4.4751,
+      "general": 6.4864,
+      "empathy": 4.2672,
+      "muse": 4.8942,
+      "forge_c": 4.4341,
+      "axiom": 2.52
+    }
+  },
+  {
+    "step": 1200,
+    "val_loss": 4.2576,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9375,
+    "domain_losses": {
+      "cora": 4.294,
+      "general": 6.328,
+      "empathy": 3.9993,
+      "muse": 4.6754,
+      "forge_c": 4.2155,
+      "axiom": 2.3271
+    }
+  },
+  {
+    "step": 1300,
+    "val_loss": 4.0624,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9408,
+    "domain_losses": {
+      "cora": 4.0577,
+      "general": 6.2575,
+      "empathy": 3.7354,
+      "muse": 4.531,
+      "forge_c": 3.9744,
+      "axiom": 2.1935
+    }
+  },
+  {
+    "step": 1400,
+    "val_loss": 3.857,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.945,
+    "domain_losses": {
+      "cora": 3.8165,
+      "general": 6.0981,
+      "empathy": 3.4724,
+      "muse": 4.3578,
+      "forge_c": 3.7722,
+      "axiom": 2.0788
+    }
+  },
+  {
+    "step": 1500,
+    "val_loss": 3.6867,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9487,
+    "domain_losses": {
+      "cora": 3.6136,
+      "general": 5.965,
+      "empathy": 3.3468,
+      "muse": 4.1348,
+      "forge_c": 3.535,
+      "axiom": 2.0048
+    }
+  },
+  {
+    "step": 1600,
+    "val_loss": 3.5294,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9513,
+    "domain_losses": {
+      "cora": 3.43,
+      "general": 5.8805,
+      "empathy": 3.0995,
+      "muse": 4.0048,
+      "forge_c": 3.3599,
+      "axiom": 1.8626
+    }
+  },
+  {
+    "step": 1700,
+    "val_loss": 3.3832,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9541,
+    "domain_losses": {
+      "cora": 3.335,
+      "general": 5.7555,
+      "empathy": 2.9129,
+      "muse": 3.8184,
+      "forge_c": 3.1835,
+      "axiom": 1.8199
+    }
+  },
+  {
+    "step": 1800,
+    "val_loss": 3.2563,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9567,
+    "domain_losses": {
+      "cora": 3.2177,
+      "general": 5.5753,
+      "empathy": 2.8033,
+      "muse": 3.6025,
+      "forge_c": 3.0489,
+      "axiom": 1.7858
+    }
+  },
+  {
+    "step": 1900,
+    "val_loss": 3.112,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9589,
+    "domain_losses": {
+      "cora": 3.0814,
+      "general": 5.5089,
+      "empathy": 2.692,
+      "muse": 3.3824,
+      "forge_c": 2.8908,
+      "axiom": 1.7122
+    }
+  },
+  {
+    "step": 2000,
+    "val_loss": 3.0254,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.961,
+    "domain_losses": {
+      "cora": 2.9951,
+      "general": 5.5255,
+      "empathy": 2.6142,
+      "muse": 3.2161,
+      "forge_c": 2.7985,
+      "axiom": 1.714
+    }
+  },
+  {
+    "step": 2100,
+    "val_loss": 2.8993,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9624,
+    "domain_losses": {
+      "cora": 2.8865,
+      "general": 5.4642,
+      "empathy": 2.4238,
+      "muse": 3.051,
+      "forge_c": 2.6575,
+      "axiom": 1.6525
+    }
+  },
+  {
+    "step": 2200,
+    "val_loss": 2.7999,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9641,
+    "domain_losses": {
+      "cora": 2.7732,
+      "general": 5.3961,
+      "empathy": 2.297,
+      "muse": 2.9345,
+      "forge_c": 2.5422,
+      "axiom": 1.5875
+    }
+  },
+  {
+    "step": 2300,
+    "val_loss": 2.7021,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9657,
+    "domain_losses": {
+      "cora": 2.69,
+      "general": 5.2234,
+      "empathy": 2.2139,
+      "muse": 2.8363,
+      "forge_c": 2.4515,
+      "axiom": 1.5575
+    }
+  },
+  {
+    "step": 2400,
+    "val_loss": 2.6176,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9671,
+    "domain_losses": {
+      "cora": 2.5739,
+      "general": 5.2932,
+      "empathy": 2.1414,
+      "muse": 2.7396,
+      "forge_c": 2.3346,
+      "axiom": 1.52
+    }
+  },
+  {
+    "step": 2500,
+    "val_loss": 2.5394,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9684,
+    "domain_losses": {
+      "cora": 2.4954,
+      "general": 5.1138,
+      "empathy": 2.1182,
+      "muse": 2.6146,
+      "forge_c": 2.25,
+      "axiom": 1.5085
+    }
+  },
+  {
+    "step": 2600,
+    "val_loss": 2.4397,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9696,
+    "domain_losses": {
+      "cora": 2.351,
+      "general": 5.0431,
+      "empathy": 2.0711,
+      "muse": 2.4851,
+      "forge_c": 2.1839,
+      "axiom": 1.4864
+    }
+  },
+  {
+    "step": 2700,
+    "val_loss": 2.3945,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9707,
+    "domain_losses": {
+      "cora": 2.2714,
+      "general": 5.0238,
+      "empathy": 1.9861,
+      "muse": 2.4151,
+      "forge_c": 2.1186,
+      "axiom": 1.4977
+    }
+  },
+  {
+    "step": 2800,
+    "val_loss": 2.3509,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9718,
+    "domain_losses": {
+      "cora": 2.1921,
+      "general": 5.0557,
+      "empathy": 1.939,
+      "muse": 2.3833,
+      "forge_c": 2.0793,
+      "axiom": 1.4681
+    }
+  },
+  {
+    "step": 2900,
+    "val_loss": 2.2873,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9721,
+    "domain_losses": {
+      "cora": 2.1135,
+      "general": 4.7894,
+      "empathy": 1.9185,
+      "muse": 2.3313,
+      "forge_c": 2.0231,
+      "axiom": 1.449
+    }
+  },
+  {
+    "step": 3000,
+    "val_loss": 2.2023,
+    "f1": 0.0,
+    "cf1": 0.0,
+    "route_acc": 0.9727,
+    "domain_losses": {
+      "cora": 2.0648,
+      "general": 4.535,
+      "empathy": 1.8521,
+      "muse": 2.2729,
+      "forge_c": 1.9281,
+      "axiom": 1.4627
+    }
+  }
+]

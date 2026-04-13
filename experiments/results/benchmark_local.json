@@ -1,0 +1,62 @@
+{
+  "model_config": "1b",
+  "model_params": 1100935897,
+  "n_steps": 3,
+  "timestamp": 1775929563.7898414,
+  "host_summary": "cpu 4% · ram 5.1/15.9GB (32%) · proc_rss 0.16GB · vram ?/0.0GB",
+  "results": [
+    {
+      "name": "A_gpu_chunk_5",
+      "device_spec": "auto",
+      "device_label": "DirectML",
+      "chunk_size": 5,
+      "ok": false,
+      "error": "RuntimeError: warmup step failed: Could not allocate tensor with 16777216 bytes. There is not enough GPU video memory available!",
+      "n_steps_completed": 0,
+      "total_seconds": 0.0,
+      "sps": 0.0,
+      "seconds_per_step": 0.0,
+      "mean_loss": 0.0,
+      "hw_before": {
+        "timestamp": 1775929564.1023872,
+        "cpu_percent": 24.4,
+        "cpu_freq_mhz": 4301.0,
+        "cpu_temp_c": null,
+        "ram_used_gb": 9.37,
+        "ram_total_gb": 15.95,
+        "ram_percent": 58.7,
+        "proc_rss_gb": 4.37,
+        "proc_cpu_percent": 0.0,
+        "gpu_vram_used_gb": null,
+        "gpu_vram_total_gb": 0.0,
+        "gpu_temp_c": null,
+        "gpu_util_percent": null,
+        "gpu_backend": "wmic",
+        "unavailable": []
+      },
+      "hw_after": {
+        "timestamp": 1775929582.2848585,
+        "cpu_percent": 36.4,
+        "cpu_freq_mhz": 4301.0,
+        "cpu_temp_c": null,
+        "ram_used_gb": 9.2,
+        "ram_total_gb": 15.95,
+        "ram_percent": 57.7,
+        "proc_rss_gb": 3.46,
+        "proc_cpu_percent": 0.0,
+        "gpu_vram_used_gb": null,
+        "gpu_vram_total_gb": 0.0,
+        "gpu_temp_c": null,
+        "gpu_util_percent": null,
+        "gpu_backend": "wmic",
+        "unavailable": []
+      },
+      "hw_peak": {
+        "proc_rss_gb": 4.37,
+        "vram_used_gb": null
+      },
+      "est_5000_steps_min": 0.0,
+      "est_15000_steps_min": 0.0
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "experiment_id": "exp4_compositional",
+  "name": "Compositional test",
+  "started_at": 1775891588.6902053,
+  "ended_at": 1775891588.6912105,
+  "passed": true,
+  "summary": "8/8 queries planned correctly (acc=1.00)",
+  "metrics": {
+    "total_cases": 8,
+    "correct": 8,
+    "accuracy": 1.0
+  },
+  "details": {
+    "cases": [
+      {
+        "query": "escribe una funci\u00f3n python que sume dos n\u00fameros",
+        "expected": [
+          "forge_c"
+        ],
+        "got": [
+          "forge_c"
+        ],
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "query": "me siento triste hoy",
+        "expected": [
+          "empathy"
+        ],
+        "got": [
+          "empathy"
+        ],
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "query": "calcula el 15% de 240",
+        "expected": [
+          "axiom"
+        ],
+        "got": [
+          "axiom"
+        ],
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "query": "por qu\u00e9 llueve en invierno",
+        "expected": [
+          "cora"
+        ],
+        "got": [
+          "cora"
+        ],
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "query": "escribe un poema sobre el mar",
+        "expected": [
+          "muse"
+        ],
+        "got": [
+          "muse"
+        ],
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "query": "explica este c\u00f3digo como cuento",
+        "expected": [
+          "forge_c",
+          "muse"
+        ],
+        "got": [
+          "forge_c",
+          "muse"
+        ],
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "query": "cu\u00e9ntame este teorema como poema",
+        "expected": "muse",
+        "got": [
+          "axiom",
+          "muse"
+        ],
+        "ok": true,
+        "reason": ""
+      },
+      {
+        "query": "explica python y rust, \u00bfpor qu\u00e9 son diferentes?",
+        "expected": "cora",
+        "got": [
+          "forge_c",
+          "cora"
+        ],
+        "ok": true,
+        "reason": ""
+      }
+    ]
+  },
+  "duration_ms": 1.0051727294921875
+}

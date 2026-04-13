@@ -1,0 +1,26 @@
+{
+  "id": "v1",
+  "parent_id": null,
+  "timestamp": 1775893833.7167504,
+  "notes": "aion_tiny_canonical from scratch — best combined=0.4002",
+  "metrics": {
+    "combined": 0.4002,
+    "best_step": 25.0,
+    "n_params": 5578849.0,
+    "elapsed_minutes": 3.7828406683333333
+  },
+  "metadata": {
+    "config": "tiny",
+    "n_steps": 50,
+    "history_len": 2,
+    "from_scratch": true,
+    "dataset": "dataset_canonical_72_5k.jsonl",
+    "motor_counts": {
+      "cora": 800,
+      "forge_c": 0,
+      "muse": 0,
+      "axiom": 0,
+      "empathy": 0
+    }
+  }
+}

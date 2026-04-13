@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+venv/
+env/
+.venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training artifacts (keep small reports, exclude large checkpoints)
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/*.safetensors
+checkpoints/**/*.pt
+checkpoints/**/*.bin
+!checkpoints/**/*.json
+!checkpoints/**/*.md
+!checkpoints/**/training_logs/
+
+# Logs
+*.log
+training_log*.txt
+*.tmp
+
+# Vast.ai packaging artifacts
+aion_c_vast.zip
+package_for_*.py.out
+*.tar.gz
+
+# Legacy temp files with garbled names
+CяА║Temp*.txt

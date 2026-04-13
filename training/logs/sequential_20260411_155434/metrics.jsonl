@@ -1,0 +1,1 @@
+{"step": 1, "phase": "phase_1_backbone", "loss": 10.6564, "sps": 0.0269, "lr": 0.01, "ram_gb": 15.93, "ram_pct": 99.9, "proc_rss_gb": 9.78, "cpu_temp": null, "gpu_temp": null, "routing_acc": null, "eta_min": 928.1579127683334, "elapsed_sec": 37.1510839, "timestamp": 1775933713.2414415}

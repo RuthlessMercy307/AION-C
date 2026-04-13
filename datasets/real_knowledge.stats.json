@@ -1,0 +1,45 @@
+{
+  "total": 8100,
+  "eos_ok": 8100,
+  "eos_pct": 100.0,
+  "by_topic": {
+    "technology": 1512,
+    "programming": 2340,
+    "geography": 480,
+    "math": 1344,
+    "language": 516,
+    "science": 1248,
+    "history": 660
+  },
+  "by_subtopic": {
+    "python_builtin": 840,
+    "python_concept": 720,
+    "os": 624,
+    "javascript": 600,
+    "networking": 480,
+    "place": 480,
+    "event": 480,
+    "physics": 432,
+    "algebra": 432,
+    "biology": 408,
+    "database": 408,
+    "chemistry": 408,
+    "calculus": 360,
+    "probability": 312,
+    "geometry": 240,
+    "english_grammar": 216,
+    "spanish_grammar": 180,
+    "figure": 180,
+    "rust": 180,
+    "false_friends": 120
+  },
+  "by_language": {
+    "en": 4050,
+    "es": 4050
+  },
+  "by_domain": {
+    "forge_c": 3852,
+    "general": 2904,
+    "axiom": 1344
+  }
+}

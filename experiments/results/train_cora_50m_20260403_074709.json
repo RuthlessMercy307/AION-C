@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "timestamp": "20260403_074709",
+    "backend": "CPU (GPU no detectada)",
+    "hsa_override": "10.3.0"
+  },
+  "config": {
+    "hidden_dim": 256,
+    "vocab_size": 379,
+    "n_params": 33151322,
+    "n_steps": 8,
+    "accum_steps": 2,
+    "lr_init": 0.0003,
+    "lr_min": 1e-05,
+    "cre_iters": 2,
+    "lambda_lm": 2.0,
+    "lambda_rel": 1.0,
+    "lambda_coh": 0.1,
+    "n_train": 60,
+    "n_eval": 20
+  },
+  "summary": {
+    "backend": "CPU (GPU no detectada)",
+    "n_params": 33151322,
+    "total_seconds": 7.0,
+    "avg_ms_per_step": 878.5,
+    "loss_total_first_half": 150.084587,
+    "loss_total_second_half": 134.581118,
+    "loss_total_improvement_pct": 10.33,
+    "lm_loss_first_half": 5.960008,
+    "lm_loss_second_half": 5.554777,
+    "lm_loss_improvement_pct": 6.8,
+    "significant_improvement": true,
+    "eval_node_acc_trend": [
+      0.0,
+      0.0
+    ],
+    "eval_rel_recall_trend": [
+      1.0,
+      1.0
+    ],
+    "eval_word_f1_trend": [
+      0.0,
+      0.0
+    ]
+  },
+  "eval_snapshots": [
+    {
+      "step": 4,
+      "avg_node_acc": 0.0,
+      "avg_rel_recall": 1.0,
+      "avg_word_f1": 0.0,
+      "examples": [
+        {
+          "level": 1,
+          "gt_n": 2,
+          "pred_n": 15,
+          "gt_edges": 1,
+          "node_acc": 0.0,
+          "rel_recall": 1.0,
+          "word_overlap": 0.0,
+          "q_preview": "Sabemos que: 'Bug' causa 'Error en runtime'. Pregunta: ¿'Bug",
+          "gt_answer": "Sí, 'Bug' lleva directamente a 'Error en runtime'.",
+          "gen_answer": "sí."
+        },
+        {
+          "level": 2,
+          "gt_n": 4,
+          "pred_n": 31,
+          "gt_edges": 4,
+          "node_acc": 0.0,
+          "rel_recall": 1.0,
+          "word_overlap": 0.0,
+          "q_preview": "'Error en runtime' causa tanto 'Pérdida de datos' como 'Bug'",
+          "gt_answer": "Sí. 'Error en runtime' lleva a 'Tiempo de inactividad' por dos caminos independientes: (1) Error en runtime → Pérdida de datos → Tiempo de inactividad y (2) Error en runtime → Bug → Tiempo de inactividad.",
+          "gen_answer": ""
+        },
+        {
+          "level": 1,
+          "gt_n": 2,
+          "pred_n": 16,
+          "gt_edges": 1,
+          "node_acc": 0.0,
+          "rel_recall": 1.0,
+          "word_overlap": 0.0,
+          "q_preview": "Sabemos que: 'Fallo del sistema' causa 'Pérdida de datos'. P",
+          "gt_answer": "'Pérdida de datos' es causado directamente por: 'Fallo del sistema'.",
+          "gen_answer": "sí."
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "avg_node_acc": 0.0,
+      "avg_rel_recall": 1.0,
+      "avg_word_f1": 0.0,
+      "examples": [
+        {
+          "level": 3,
+          "gt_n": 3,
+          "pred_n": 32,
+          "gt_edges": 3,
+          "node_acc": 0.0,
+          "rel_recall": 1.0,
+          "word_overlap": 0.0,
+          "q_preview": "Un analista describe el siguiente sistema: 'Bug' se correlac",
+          "gt_answer": "Sí, hay una contradicción: 'Pérdida de datos' no puede simultáneamente 'causes' y 'prevents' a 'Fallo del sistema'. Estas dos relaciones son mutuamente excluyentes.",
+          "gen_answer": ""
+        },
+        {
+          "level": 1,
+          "gt_n": 3,
+          "pred_n": 15,
+          "gt_edges": 2,
+          "node_acc": 0.0,
+          "rel_recall": 1.0,
+          "word_overlap": 0.0,
+          "q_preview": "Sabemos que: 'Debilidad' posibilita 'Recuperación'; 'Recuper",
+          "gt_answer": "Sí. Existe la cadena causal: Debilidad → Recuperación → Inmunidad. Por transitividad, 'Debilidad' puede llevar a 'Inmunidad'.",
+          "gen_answer": ""
+        },
+        {
+          "level": 4,
+          "gt_n": 3,
+          "pred_n": 31,
+          "gt_edges": 2,
+          "node_acc": 0.0,
+          "rel_recall": 1.0,
+          "word_overlap": 0.0,
+          "q_preview": "'Daño infraestructura' causa 'Lluvia', y 'Lluvia' lleva a 'D",
+          "gt_answer": "No. Aunque 'Daño infraestructura' ocurrió, al evitar 'Lluvia' mediante intervención, se rompe la cadena causal hacia 'Daño agrícola'. 'Daño agrícola' no tiene otra fuente causal en este sistema, por lo que no habría ocurrido.",
+          "gen_answer": ""
+        }
+      ]
+    }
+  ],
+  "loss_curve": [
+    {
+      "step": 1,
+      "total": 173.551662,
+      "nc": 160.608551,
+      "rel": 0.694162,
+      "coh": 1.09744,
+      "lm": 6.069599,
+      "n_valid": 26.0,
+      "gt_n": 4.0,
+      "lr": 0.00028896,
+      "ms": 1112.4
+    },
+    {
+      "step": 2,
+      "total": 72.080059,
+      "nc": 59.317577,
+      "rel": 0.694812,
+      "coh": 1.135963,
+      "lm": 5.977037,
+      "n_valid": 18.0,
+      "gt_n": 3.5,
+      "lr": 0.00025753,
+      "ms": 778.5
+    },
+    {
+      "step": 3,
+      "total": 123.590691,
+      "nc": 110.925831,
+      "rel": 0.693951,
+      "coh": 1.274287,
+      "lm": 5.921739,
+      "n_valid": 21.5,
+      "gt_n": 3.0,
+      "lr": 0.00021049,
+      "ms": 789.5
+    },
+    {
+      "step": 4,
+      "total": 231.115936,
+      "nc": 218.547783,
+      "rel": 0.694174,
+      "coh": 1.306636,
+      "lm": 5.871659,
+      "n_valid": 27.5,
+      "gt_n": 2.5,
+      "lr": 0.000155,
+      "ms": 1024.0
+    },
+    {
+      "step": 5,
+      "total": 62.849298,
+      "nc": 50.540351,
+      "rel": 0.693923,
+      "coh": 1.457171,
+      "lm": 5.734656,
+      "n_valid": 15.0,
+      "gt_n": 2.5,
+      "lr": 9.951e-05,
+      "ms": 637.6
+    },
+    {
+      "step": 6,
+      "total": 181.920372,
+      "nc": 169.769253,
+      "rel": 0.69404,
+      "coh": 1.857213,
+      "lm": 5.635673,
+      "n_valid": 25.5,
+      "gt_n": 3.0,
+      "lr": 5.247e-05,
+      "ms": 1005.2
+    },
+    {
+      "step": 7,
+      "total": 156.973404,
+      "nc": 145.145668,
+      "rel": 0.69409,
+      "coh": 3.094453,
+      "lm": 5.412101,
+      "n_valid": 24.0,
+      "gt_n": 3.0,
+      "lr": 2.104e-05,
+      "ms": 862.0
+    },
+    {
+      "step": 8,
+      "total": 136.581398,
+      "nc": 124.811783,
+      "rel": 0.693769,
+      "coh": 2.024957,
+      "lm": 5.43668,
+      "n_valid": 21.5,
+      "gt_n": 2.5,
+      "lr": 1e-05,
+      "ms": 819.1
+    }
+  ]
+}

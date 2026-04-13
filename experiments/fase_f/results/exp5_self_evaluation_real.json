@@ -1,0 +1,99 @@
+{
+  "experiment_id": "exp5_self_evaluation_real",
+  "name": "Self-evaluation test",
+  "started_at": 1775893314.1754541,
+  "ended_at": 1775893314.1754541,
+  "passed": true,
+  "summary": "6/8 scenarios classified correctly (acc=0.75)",
+  "metrics": {
+    "total_cases": 8,
+    "correct": 6,
+    "accuracy": 0.75
+  },
+  "details": {
+    "confusion_matrix": {
+      "good": {
+        "good": 3,
+        "bad": 0,
+        "neutral": 0
+      },
+      "bad": {
+        "good": 0,
+        "bad": 2,
+        "neutral": 2
+      },
+      "neutral": {
+        "good": 0,
+        "bad": 0,
+        "neutral": 1
+      }
+    },
+    "scenarios": [
+      {
+        "scenario": "explicit_thumbs_up",
+        "expected": "good",
+        "got": "good",
+        "mean": 0.8500000000000001,
+        "std": 0.09676001240181814,
+        "conservative": 0.7532399875981819
+      },
+      {
+        "scenario": "explicit_thumbs_down",
+        "expected": "bad",
+        "got": "bad",
+        "mean": 0.3,
+        "std": 0.09676001240181814,
+        "conservative": 0.20323998759818185
+      },
+      {
+        "scenario": "explicit_correction",
+        "expected": "bad",
+        "got": "bad",
+        "mean": 0.355,
+        "std": 0.10784827305061497,
+        "conservative": 0.24715172694938503
+      },
+      {
+        "scenario": "implicit_no_correction_continue",
+        "expected": "good",
+        "got": "good",
+        "mean": 0.725,
+        "std": 0.19611858657455186,
+        "conservative": 0.5288814134254481
+      },
+      {
+        "scenario": "implicit_re_asked",
+        "expected": "bad",
+        "got": "neutral",
+        "mean": 0.47,
+        "std": 0.19611858657455186,
+        "conservative": 0.27388141342544814
+      },
+      {
+        "scenario": "intrinsic_symbolic_inconsistent",
+        "expected": "bad",
+        "got": "neutral",
+        "mean": 0.43981987390343064,
+        "std": 0.213687856463581,
+        "conservative": 0.22613201743984965
+      },
+      {
+        "scenario": "intrinsic_strong_agreement",
+        "expected": "good",
+        "got": "good",
+        "mean": 0.6917379915935621,
+        "std": 0.19611858657455186,
+        "conservative": 0.49561940501901025
+      },
+      {
+        "scenario": "pure_neutral",
+        "expected": "neutral",
+        "got": "neutral",
+        "mean": 0.5750000000000001,
+        "std": 0.213687856463581,
+        "conservative": 0.36131214353641905
+      }
+    ]
+  },
+  "duration_ms": 0.0
+}

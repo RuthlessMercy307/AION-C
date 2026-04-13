@@ -1,0 +1,16 @@
+# Mínimo necesario para entrenar AION-C 1.1B en RTX 4090
+# El resto del código (agent, world_model, symbolic, etc.) es stdlib only.
+
+# PyTorch con CUDA 12.4 — verificar versión disponible en Vast
+# (las imágenes de Vast suelen traer torch ya instalado, pero forzamos la versión)
+torch>=2.4.0
+torchvision
+
+# Tokenizer (sentencepiece backend)
+sentencepiece>=0.2.0
+
+# Dependencies del backend FastAPI (opcional, solo si querés correr la UI en Vast)
+# fastapi>=0.110
+# uvicorn[standard]>=0.30
+# python-multipart
+# httpx

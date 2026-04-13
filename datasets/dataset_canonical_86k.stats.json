@@ -1,0 +1,35 @@
+{
+  "total": 85600,
+  "eos_pct": 100.0,
+  "by_source": {
+    "base_72_5k": 72500,
+    "real_knowledge": 8100,
+    "search_web": 3000,
+    "search_and_learn": 2000
+  },
+  "by_type": {
+    "legacy": 57500,
+    "real_knowledge": 8100,
+    "multi_turn": 5000,
+    "tool": 3000,
+    "search_web_usage": 3000,
+    "metacognitive": 2500,
+    "skill": 2000,
+    "mem": 2000,
+    "search_and_learn": 2000,
+    "identity": 500
+  },
+  "by_language": {
+    "en": 48072,
+    "es": 37528
+  },
+  "by_domain": {
+    "forge_c": 19524,
+    "cora": 15080,
+    "axiom": 14000,
+    "general": 11157,
+    "empathy": 9205,
+    "muse": 9134,
+    "metacognitive": 7500
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "model_config": "1b",
+  "total_params": 1100935897,
+  "n_steps_per_phase": 3,
+  "seq_len": 32,
+  "hw_before": {
+    "timestamp": 1775931190.7898993,
+    "cpu_percent": 0.0,
+    "cpu_freq_mhz": 4301.0,
+    "cpu_temp_c": null,
+    "ram_used_gb": 7.75,
+    "ram_total_gb": 15.95,
+    "ram_percent": 48.6,
+    "proc_rss_gb": 0.16,
+    "proc_cpu_percent": 0.0,
+    "gpu_vram_used_gb": null,
+    "gpu_vram_total_gb": 0.0,
+    "gpu_temp_c": null,
+    "gpu_util_percent": null,
+    "gpu_backend": "wmic",
+    "unavailable": []
+  },
+  "hw_after": {
+    "timestamp": 1775931309.7200794,
+    "cpu_percent": 56.3,
+    "cpu_freq_mhz": 4301.0,
+    "cpu_temp_c": null,
+    "ram_used_gb": 15.94,
+    "ram_total_gb": 15.95,
+    "ram_percent": 99.9,
+    "proc_rss_gb": 0.19,
+    "proc_cpu_percent": 0.0,
+    "gpu_vram_used_gb": null,
+    "gpu_vram_total_gb": 0.0,
+    "gpu_temp_c": null,
+    "gpu_util_percent": null,
+    "gpu_backend": "wmic",
+    "unavailable": []
+  },
+  "phases": [
+    {
+      "name": "phase_1_backbone",
+      "trainable_params": 952822794,
+      "total_params": 1100935897,
+      "trainable_pct": 86.55,
+      "n_steps": 3,
+      "total_seconds": 110.47,
+      "sps": 0.0272,
+      "seconds_per_step": 36.824,
+      "mean_loss": 8.4971,
+      "final_loss": 6.598,
+      "peak_rss_gb": 0.78,
+      "notes": ""
+    }
+  ],
+  "host": "cpu 0% · ram 7.8/15.9GB (49%) · proc_rss 0.16GB · vram ?/0.0GB"
+}

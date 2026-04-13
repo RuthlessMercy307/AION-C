@@ -1,0 +1,2099 @@
+{
+  "config": {
+    "hidden_dim": 64,
+    "vocab_size": 512,
+    "n_steps": 200,
+    "lr": 0.001,
+    "cre_iters": 3,
+    "lambda_cre": 0.1,
+    "n_examples": 500,
+    "n_params": 581176
+  },
+  "timing": {
+    "total_seconds": 5.4,
+    "avg_ms_per_step": 27.0
+  },
+  "loss_summary": {
+    "avg_first_half": 3.768821,
+    "avg_second_half": 1.397966,
+    "improvement": 2.370855,
+    "improvement_pct": 62.91
+  },
+  "loss_curve": [
+    {
+      "step": 1,
+      "total": 1.7344496250152588,
+      "node_count": 0.9604000449180603,
+      "relation": 0.6933615803718567,
+      "cre_coherence": 0.8068801760673523,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 57.9
+    },
+    {
+      "step": 2,
+      "total": 9.699480056762695,
+      "node_count": 8.876575469970703,
+      "relation": 0.6937914490699768,
+      "cre_coherence": 1.2911279201507568,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 46.6
+    },
+    {
+      "step": 3,
+      "total": 4.755692481994629,
+      "node_count": 3.916675329208374,
+      "relation": 0.6938197612762451,
+      "cre_coherence": 1.4519752264022827,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 44.7
+    },
+    {
+      "step": 4,
+      "total": 4.797450542449951,
+      "node_count": 3.917668104171753,
+      "relation": 0.6938216686248779,
+      "cre_coherence": 1.8596090078353882,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 45.1
+    },
+    {
+      "step": 5,
+      "total": 4.772941589355469,
+      "node_count": 3.9161109924316406,
+      "relation": 0.6942030787467957,
+      "cre_coherence": 1.6262766122817993,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 35.3
+    },
+    {
+      "step": 6,
+      "total": 4.727634429931641,
+      "node_count": 3.9133732318878174,
+      "relation": 0.6936172842979431,
+      "cre_coherence": 1.2064406871795654,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 36.3
+    },
+    {
+      "step": 7,
+      "total": 4.656490802764893,
+      "node_count": 3.912886381149292,
+      "relation": 0.6937375068664551,
+      "cre_coherence": 0.498672753572464,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 39.6
+    },
+    {
+      "step": 8,
+      "total": 4.771641731262207,
+      "node_count": 3.912245035171509,
+      "relation": 0.6935420632362366,
+      "cre_coherence": 1.6585456132888794,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 49.2
+    },
+    {
+      "step": 9,
+      "total": 4.807219982147217,
+      "node_count": 3.9112038612365723,
+      "relation": 0.6925868988037109,
+      "cre_coherence": 2.0342938899993896,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 44.6
+    },
+    {
+      "step": 10,
+      "total": 1.9110512733459473,
+      "node_count": 0.9560068249702454,
+      "relation": 0.6944003701210022,
+      "cre_coherence": 2.6064412593841553,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 46.3
+    },
+    {
+      "step": 11,
+      "total": 4.756873607635498,
+      "node_count": 3.9072518348693848,
+      "relation": 0.6936150193214417,
+      "cre_coherence": 1.5600699186325073,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 45.0
+    },
+    {
+      "step": 12,
+      "total": 4.674546718597412,
+      "node_count": 3.9117472171783447,
+      "relation": 0.6939677596092224,
+      "cre_coherence": 0.6883198618888855,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 46.0
+    },
+    {
+      "step": 13,
+      "total": 4.8759589195251465,
+      "node_count": 3.906625986099243,
+      "relation": 0.6938484311103821,
+      "cre_coherence": 2.7548439502716064,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 48.0
+    },
+    {
+      "step": 14,
+      "total": 4.725004196166992,
+      "node_count": 3.907315731048584,
+      "relation": 0.6939160823822021,
+      "cre_coherence": 1.237728238105774,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 48.0
+    },
+    {
+      "step": 15,
+      "total": 1.857615351676941,
+      "node_count": 0.9504267573356628,
+      "relation": 0.6932827830314636,
+      "cre_coherence": 2.1390581130981445,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 43.3
+    },
+    {
+      "step": 16,
+      "total": 1.8009120225906372,
+      "node_count": 0.9506889581680298,
+      "relation": 0.6937468647956848,
+      "cre_coherence": 1.5647612810134888,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 44.1
+    },
+    {
+      "step": 17,
+      "total": 9.610321044921875,
+      "node_count": 8.842392921447754,
+      "relation": 0.6931166648864746,
+      "cre_coherence": 0.748114824295044,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 39.4
+    },
+    {
+      "step": 18,
+      "total": 4.673590660095215,
+      "node_count": 3.898042678833008,
+      "relation": 0.693629801273346,
+      "cre_coherence": 0.8191814422607422,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 39.5
+    },
+    {
+      "step": 19,
+      "total": 9.70483684539795,
+      "node_count": 8.831894874572754,
+      "relation": 0.6928368806838989,
+      "cre_coherence": 1.8010504245758057,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 35.3
+    },
+    {
+      "step": 20,
+      "total": 4.64560079574585,
+      "node_count": 3.8885042667388916,
+      "relation": 0.693723201751709,
+      "cre_coherence": 0.633730411529541,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 41.0
+    },
+    {
+      "step": 21,
+      "total": 4.710829257965088,
+      "node_count": 3.8896665573120117,
+      "relation": 0.6934019923210144,
+      "cre_coherence": 1.2776110172271729,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 44.1
+    },
+    {
+      "step": 22,
+      "total": 9.680562019348145,
+      "node_count": 8.823974609375,
+      "relation": 0.6929733753204346,
+      "cre_coherence": 1.636147379875183,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 39.4
+    },
+    {
+      "step": 23,
+      "total": 9.672918319702148,
+      "node_count": 8.823859214782715,
+      "relation": 0.6931443214416504,
+      "cre_coherence": 1.5591387748718262,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 36.1
+    },
+    {
+      "step": 24,
+      "total": 4.753726482391357,
+      "node_count": 3.888716697692871,
+      "relation": 0.6931535601615906,
+      "cre_coherence": 1.718563437461853,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 47.8
+    },
+    {
+      "step": 25,
+      "total": 4.7744622230529785,
+      "node_count": 3.8775689601898193,
+      "relation": 0.6933749318122864,
+      "cre_coherence": 2.035184144973755,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 41.8
+    },
+    {
+      "step": 26,
+      "total": 0.8514314293861389,
+      "node_count": 0.0008716295124031603,
+      "relation": 0.6931076049804688,
+      "cre_coherence": 1.5745216608047485,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 5,
+      "ms": 43.4
+    },
+    {
+      "step": 27,
+      "total": 9.560405731201172,
+      "node_count": 8.798194885253906,
+      "relation": 0.692870020866394,
+      "cre_coherence": 0.6934087872505188,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 41.0
+    },
+    {
+      "step": 28,
+      "total": 9.674449920654297,
+      "node_count": 8.766904830932617,
+      "relation": 0.6947499513626099,
+      "cre_coherence": 2.1279516220092773,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 37.7
+    },
+    {
+      "step": 29,
+      "total": 4.6607985496521,
+      "node_count": 3.8661293983459473,
+      "relation": 0.6934992671012878,
+      "cre_coherence": 1.0117015838623047,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 42.3
+    },
+    {
+      "step": 30,
+      "total": 4.786614894866943,
+      "node_count": 3.8693854808807373,
+      "relation": 0.6929488778114319,
+      "cre_coherence": 2.242802858352661,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 44.5
+    },
+    {
+      "step": 31,
+      "total": 4.695105075836182,
+      "node_count": 3.8547463417053223,
+      "relation": 0.693176805973053,
+      "cre_coherence": 1.4718199968338013,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 42.2
+    },
+    {
+      "step": 32,
+      "total": 4.758895397186279,
+      "node_count": 3.8680124282836914,
+      "relation": 0.6931447386741638,
+      "cre_coherence": 1.9773837327957153,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 42.5
+    },
+    {
+      "step": 33,
+      "total": 9.524397850036621,
+      "node_count": 8.726208686828613,
+      "relation": 0.6925597786903381,
+      "cre_coherence": 1.056286096572876,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 38.6
+    },
+    {
+      "step": 34,
+      "total": 1.7078558206558228,
+      "node_count": 0.9185255765914917,
+      "relation": 0.6933073401451111,
+      "cre_coherence": 0.9602298140525818,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 42.6
+    },
+    {
+      "step": 35,
+      "total": 4.594298362731934,
+      "node_count": 3.8320767879486084,
+      "relation": 0.6927496790885925,
+      "cre_coherence": 0.6947193145751953,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 40.2
+    },
+    {
+      "step": 36,
+      "total": 4.673322677612305,
+      "node_count": 3.8290960788726807,
+      "relation": 0.6929943561553955,
+      "cre_coherence": 1.5123200416564941,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 41.4
+    },
+    {
+      "step": 37,
+      "total": 1.783588171005249,
+      "node_count": 0.905478298664093,
+      "relation": 0.6924428343772888,
+      "cre_coherence": 1.85667085647583,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 43.9
+    },
+    {
+      "step": 38,
+      "total": 4.595917224884033,
+      "node_count": 3.798513174057007,
+      "relation": 0.6927445530891418,
+      "cre_coherence": 1.0465978384017944,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 49.5
+    },
+    {
+      "step": 39,
+      "total": 4.619069576263428,
+      "node_count": 3.8192005157470703,
+      "relation": 0.6918535232543945,
+      "cre_coherence": 1.0801562070846558,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 48.3
+    },
+    {
+      "step": 40,
+      "total": 9.391454696655273,
+      "node_count": 8.625349044799805,
+      "relation": 0.6928077936172485,
+      "cre_coherence": 0.7329751253128052,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 45.7
+    },
+    {
+      "step": 41,
+      "total": 0.8278977870941162,
+      "node_count": 0.0025035012513399124,
+      "relation": 0.6926385760307312,
+      "cre_coherence": 1.327556848526001,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 5,
+      "ms": 46.2
+    },
+    {
+      "step": 42,
+      "total": 1.713512659072876,
+      "node_count": 0.8856613636016846,
+      "relation": 0.6916378140449524,
+      "cre_coherence": 1.3621360063552856,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 48.9
+    },
+    {
+      "step": 43,
+      "total": 4.666672229766846,
+      "node_count": 3.732814311981201,
+      "relation": 0.6921596527099609,
+      "cre_coherence": 2.416984796524048,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 45.0
+    },
+    {
+      "step": 44,
+      "total": 4.586352825164795,
+      "node_count": 3.7416787147521973,
+      "relation": 0.6915876269340515,
+      "cre_coherence": 1.5308647155761719,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 44.8
+    },
+    {
+      "step": 45,
+      "total": 4.6889262199401855,
+      "node_count": 3.672159194946289,
+      "relation": 0.6924499869346619,
+      "cre_coherence": 3.2431676387786865,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 46.0
+    },
+    {
+      "step": 46,
+      "total": 4.44248104095459,
+      "node_count": 3.675678014755249,
+      "relation": 0.6920358538627625,
+      "cre_coherence": 0.7476701736450195,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 45.2
+    },
+    {
+      "step": 47,
+      "total": 4.531909465789795,
+      "node_count": 3.661404848098755,
+      "relation": 0.6920907497406006,
+      "cre_coherence": 1.7841383218765259,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 45.3
+    },
+    {
+      "step": 48,
+      "total": 1.7096275091171265,
+      "node_count": 0.8370155096054077,
+      "relation": 0.6925473213195801,
+      "cre_coherence": 1.8006469011306763,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 44.1
+    },
+    {
+      "step": 49,
+      "total": 4.647770404815674,
+      "node_count": 3.7035515308380127,
+      "relation": 0.6918589472770691,
+      "cre_coherence": 2.523599624633789,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 47.1
+    },
+    {
+      "step": 50,
+      "total": 1.670706033706665,
+      "node_count": 0.8330816626548767,
+      "relation": 0.6920343041419983,
+      "cre_coherence": 1.45590078830719,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 51.1
+    },
+    {
+      "step": 51,
+      "total": 4.28582763671875,
+      "node_count": 3.4937973022460938,
+      "relation": 0.6914240717887878,
+      "cre_coherence": 1.0060642957687378,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 46.8
+    },
+    {
+      "step": 52,
+      "total": 4.325592517852783,
+      "node_count": 3.4691131114959717,
+      "relation": 0.6942410469055176,
+      "cre_coherence": 1.622385025024414,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 47.3
+    },
+    {
+      "step": 53,
+      "total": 8.76999568939209,
+      "node_count": 7.939164161682129,
+      "relation": 0.690371036529541,
+      "cre_coherence": 1.4045966863632202,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 43.0
+    },
+    {
+      "step": 54,
+      "total": 4.235231399536133,
+      "node_count": 3.1749939918518066,
+      "relation": 0.6916790008544922,
+      "cre_coherence": 3.685584306716919,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 48.2
+    },
+    {
+      "step": 55,
+      "total": 4.086894989013672,
+      "node_count": 3.1691596508026123,
+      "relation": 0.6914766430854797,
+      "cre_coherence": 2.262587070465088,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 48.0
+    },
+    {
+      "step": 56,
+      "total": 3.8472068309783936,
+      "node_count": 2.9916677474975586,
+      "relation": 0.6901121139526367,
+      "cre_coherence": 1.6542707681655884,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 43.4
+    },
+    {
+      "step": 57,
+      "total": 7.972196578979492,
+      "node_count": 7.137950420379639,
+      "relation": 0.6942440271377563,
+      "cre_coherence": 1.4000227451324463,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 41.8
+    },
+    {
+      "step": 58,
+      "total": 3.797837734222412,
+      "node_count": 2.9642679691314697,
+      "relation": 0.6917104125022888,
+      "cre_coherence": 1.418592929840088,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 44.5
+    },
+    {
+      "step": 59,
+      "total": 1.4643892049789429,
+      "node_count": 0.5183207392692566,
+      "relation": 0.6903045773506165,
+      "cre_coherence": 2.5576388835906982,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 46.6
+    },
+    {
+      "step": 60,
+      "total": 1.2748138904571533,
+      "node_count": 0.1735430359840393,
+      "relation": 0.688912034034729,
+      "cre_coherence": 4.123587608337402,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 5,
+      "ms": 47.9
+    },
+    {
+      "step": 61,
+      "total": 1.413130283355713,
+      "node_count": 0.41026049852371216,
+      "relation": 0.6904783844947815,
+      "cre_coherence": 3.123913526535034,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 47.5
+    },
+    {
+      "step": 62,
+      "total": 6.897005081176758,
+      "node_count": 5.842174053192139,
+      "relation": 0.6937838196754456,
+      "cre_coherence": 3.610471487045288,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 36.2
+    },
+    {
+      "step": 63,
+      "total": 6.642031669616699,
+      "node_count": 5.615407943725586,
+      "relation": 0.6942822933197021,
+      "cre_coherence": 3.323410749435425,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 32.6
+    },
+    {
+      "step": 64,
+      "total": 1.1982537508010864,
+      "node_count": 0.3074254095554352,
+      "relation": 0.6868109703063965,
+      "cre_coherence": 2.0401744842529297,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 5,
+      "ms": 46.1
+    },
+    {
+      "step": 65,
+      "total": 2.6350529193878174,
+      "node_count": 1.7108854055404663,
+      "relation": 0.6883130073547363,
+      "cre_coherence": 2.3585429191589355,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 39.6
+    },
+    {
+      "step": 66,
+      "total": 2.6740479469299316,
+      "node_count": 1.7472604513168335,
+      "relation": 0.6885884404182434,
+      "cre_coherence": 2.3819897174835205,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 43.2
+    },
+    {
+      "step": 67,
+      "total": 5.830719947814941,
+      "node_count": 5.0689520835876465,
+      "relation": 0.6919715404510498,
+      "cre_coherence": 0.6979658603668213,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 34.5
+    },
+    {
+      "step": 68,
+      "total": 2.365056037902832,
+      "node_count": 1.3542711734771729,
+      "relation": 0.6846367716789246,
+      "cre_coherence": 3.2614800930023193,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 40.2
+    },
+    {
+      "step": 69,
+      "total": 2.4112930297851562,
+      "node_count": 1.26626455783844,
+      "relation": 0.6826769709587097,
+      "cre_coherence": 4.62351655960083,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 33.3
+    },
+    {
+      "step": 70,
+      "total": 5.319522380828857,
+      "node_count": 4.554213523864746,
+      "relation": 0.6891461610794067,
+      "cre_coherence": 0.7616289854049683,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 32.9
+    },
+    {
+      "step": 71,
+      "total": 5.351337909698486,
+      "node_count": 4.274895668029785,
+      "relation": 0.6933209896087646,
+      "cre_coherence": 3.8312082290649414,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 2,
+      "ms": 41.0
+    },
+    {
+      "step": 72,
+      "total": 0.9818806648254395,
+      "node_count": 0.010373331606388092,
+      "relation": 0.6806197166442871,
+      "cre_coherence": 2.9088757038116455,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 4,
+      "ms": 44.4
+    },
+    {
+      "step": 73,
+      "total": 2.2248690128326416,
+      "node_count": 1.2734906673431396,
+      "relation": 0.6771275997161865,
+      "cre_coherence": 2.7425079345703125,
+      "n_valid_nodes": 8,
+      "gt_n_nodes": 3,
+      "ms": 37.5
+    },
+    {
+      "step": 74,
+      "total": 5.122262001037598,
+      "node_count": 4.085847854614258,
+      "relation": 0.6900137066841125,
+      "cre_coherence": 3.4640047550201416,
+      "n_valid_nodes": 2,
+      "gt_n_nodes": 2,
+      "ms": 26.1
+    },
+    {
+      "step": 75,
+      "total": 1.0281707048416138,
+      "node_count": 1.0281707048416138,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.7
+    },
+    {
+      "step": 76,
+      "total": 1.0267177820205688,
+      "node_count": 1.0267177820205688,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 3,
+      "ms": 24.3
+    },
+    {
+      "step": 77,
+      "total": 1.0178929567337036,
+      "node_count": 1.0178929567337036,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 3,
+      "ms": 18.1
+    },
+    {
+      "step": 78,
+      "total": 1.5751279592514038,
+      "node_count": 0.8235670924186707,
+      "relation": 0.6766026020050049,
+      "cre_coherence": 0.749581515789032,
+      "n_valid_nodes": 2,
+      "gt_n_nodes": 5,
+      "ms": 35.1
+    },
+    {
+      "step": 79,
+      "total": 1.4598701000213623,
+      "node_count": 0.7192730903625488,
+      "relation": 0.6710798740386963,
+      "cre_coherence": 0.6951717138290405,
+      "n_valid_nodes": 2,
+      "gt_n_nodes": 5,
+      "ms": 30.5
+    },
+    {
+      "step": 80,
+      "total": 1.0056920051574707,
+      "node_count": 1.0056920051574707,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.4
+    },
+    {
+      "step": 81,
+      "total": 4.035130023956299,
+      "node_count": 4.035130023956299,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 2,
+      "ms": 21.9
+    },
+    {
+      "step": 82,
+      "total": 0.00725608691573143,
+      "node_count": 0.00725608691573143,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 4,
+      "ms": 18.2
+    },
+    {
+      "step": 83,
+      "total": 1.001417636871338,
+      "node_count": 1.001417636871338,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.5
+    },
+    {
+      "step": 84,
+      "total": 4.001558303833008,
+      "node_count": 4.001558303833008,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 16.2
+    },
+    {
+      "step": 85,
+      "total": 1.0006829500198364,
+      "node_count": 1.0006829500198364,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 19.8
+    },
+    {
+      "step": 86,
+      "total": 1.0399389266967773,
+      "node_count": 1.0399389266967773,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 3,
+      "ms": 15.9
+    },
+    {
+      "step": 87,
+      "total": 4.000860214233398,
+      "node_count": 4.000860214233398,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 13.3
+    },
+    {
+      "step": 88,
+      "total": 1.0022032260894775,
+      "node_count": 1.0022032260894775,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.7
+    },
+    {
+      "step": 89,
+      "total": 1.000269889831543,
+      "node_count": 1.000269889831543,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.2
+    },
+    {
+      "step": 90,
+      "total": 1.0001859664916992,
+      "node_count": 1.0001859664916992,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 19.3
+    },
+    {
+      "step": 91,
+      "total": 0.6365412473678589,
+      "node_count": 0.6365412473678589,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 28.9
+    },
+    {
+      "step": 92,
+      "total": 1.000187873840332,
+      "node_count": 1.000187873840332,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 20.0
+    },
+    {
+      "step": 93,
+      "total": 1.0001239776611328,
+      "node_count": 1.0001239776611328,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.8
+    },
+    {
+      "step": 94,
+      "total": 1.0001296997070312,
+      "node_count": 1.0001296997070312,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.6
+    },
+    {
+      "step": 95,
+      "total": 1.0001087188720703,
+      "node_count": 1.0001087188720703,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.6
+    },
+    {
+      "step": 96,
+      "total": 1.0000801086425781,
+      "node_count": 1.0000801086425781,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.9
+    },
+    {
+      "step": 97,
+      "total": 1.0000782012939453,
+      "node_count": 1.0000782012939453,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.2
+    },
+    {
+      "step": 98,
+      "total": 6.947411748114973e-07,
+      "node_count": 6.947411748114973e-07,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 19.0
+    },
+    {
+      "step": 99,
+      "total": 1.0000524520874023,
+      "node_count": 1.0000524520874023,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.7
+    },
+    {
+      "step": 100,
+      "total": 4.000102996826172,
+      "node_count": 4.000102996826172,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 15.9
+    },
+    {
+      "step": 101,
+      "total": 1.0000543594360352,
+      "node_count": 1.0000543594360352,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.5
+    },
+    {
+      "step": 102,
+      "total": 1.0000543594360352,
+      "node_count": 1.0000543594360352,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.4
+    },
+    {
+      "step": 103,
+      "total": 4.000078201293945,
+      "node_count": 4.000078201293945,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 15.5
+    },
+    {
+      "step": 104,
+      "total": 1.0000715255737305,
+      "node_count": 1.0000715255737305,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.9
+    },
+    {
+      "step": 105,
+      "total": 1.0000457763671875,
+      "node_count": 1.0000457763671875,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.0
+    },
+    {
+      "step": 106,
+      "total": 0.5971755981445312,
+      "node_count": 0.5971755981445312,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 21.5
+    },
+    {
+      "step": 107,
+      "total": 4.00007438659668,
+      "node_count": 4.00007438659668,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 17.9
+    },
+    {
+      "step": 108,
+      "total": 1.000035285949707,
+      "node_count": 1.000035285949707,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.8
+    },
+    {
+      "step": 109,
+      "total": 1.068893551826477,
+      "node_count": 1.068893551826477,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 3,
+      "ms": 15.8
+    },
+    {
+      "step": 110,
+      "total": 4.011356830596924,
+      "node_count": 4.011356830596924,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 2,
+      "ms": 13.5
+    },
+    {
+      "step": 111,
+      "total": 1.0000286102294922,
+      "node_count": 1.0000286102294922,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.0
+    },
+    {
+      "step": 112,
+      "total": 4.000053405761719,
+      "node_count": 4.000053405761719,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 15.8
+    },
+    {
+      "step": 113,
+      "total": 1.0000286102294922,
+      "node_count": 1.0000286102294922,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.1
+    },
+    {
+      "step": 114,
+      "total": 1.0003490447998047,
+      "node_count": 1.0003490447998047,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.0
+    },
+    {
+      "step": 115,
+      "total": 1.0000238418579102,
+      "node_count": 1.0000238418579102,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.1
+    },
+    {
+      "step": 116,
+      "total": 1.0000276565551758,
+      "node_count": 1.0000276565551758,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.9
+    },
+    {
+      "step": 117,
+      "total": 4.0000457763671875,
+      "node_count": 4.0000457763671875,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 15.3
+    },
+    {
+      "step": 118,
+      "total": 4.000112533569336,
+      "node_count": 4.000112533569336,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 11.8
+    },
+    {
+      "step": 119,
+      "total": 4.000087738037109,
+      "node_count": 4.000087738037109,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 13.1
+    },
+    {
+      "step": 120,
+      "total": 4.00004768371582,
+      "node_count": 4.00004768371582,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 16.2
+    },
+    {
+      "step": 121,
+      "total": 1.0000200271606445,
+      "node_count": 1.0000200271606445,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.8
+    },
+    {
+      "step": 122,
+      "total": 0.594230592250824,
+      "node_count": 0.594230592250824,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 22.9
+    },
+    {
+      "step": 123,
+      "total": 5.676156433764845e-09,
+      "node_count": 5.676156433764845e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 17.0
+    },
+    {
+      "step": 124,
+      "total": 1.0000391006469727,
+      "node_count": 1.0000391006469727,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.4
+    },
+    {
+      "step": 125,
+      "total": 4.000036239624023,
+      "node_count": 4.000036239624023,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 13.8
+    },
+    {
+      "step": 126,
+      "total": 4.000053405761719,
+      "node_count": 4.000053405761719,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 16.1
+    },
+    {
+      "step": 127,
+      "total": 1.0000190734863281,
+      "node_count": 1.0000190734863281,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.2
+    },
+    {
+      "step": 128,
+      "total": 1.0000200271606445,
+      "node_count": 1.0000200271606445,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.5
+    },
+    {
+      "step": 129,
+      "total": 0.5933171510696411,
+      "node_count": 0.5933171510696411,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 19.9
+    },
+    {
+      "step": 130,
+      "total": 0.5931841731071472,
+      "node_count": 0.5931841731071472,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 19.7
+    },
+    {
+      "step": 131,
+      "total": 1.0000324249267578,
+      "node_count": 1.0000324249267578,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.6
+    },
+    {
+      "step": 132,
+      "total": 1.0000190734863281,
+      "node_count": 1.0000190734863281,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 19.0
+    },
+    {
+      "step": 133,
+      "total": 1.0000152587890625,
+      "node_count": 1.0000152587890625,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.9
+    },
+    {
+      "step": 134,
+      "total": 1.0000152587890625,
+      "node_count": 1.0000152587890625,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.2
+    },
+    {
+      "step": 135,
+      "total": 1.0000152587890625,
+      "node_count": 1.0000152587890625,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.2
+    },
+    {
+      "step": 136,
+      "total": 0.05301500856876373,
+      "node_count": 0.05301500856876373,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 4,
+      "ms": 20.4
+    },
+    {
+      "step": 137,
+      "total": 4.000032424926758,
+      "node_count": 4.000032424926758,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 13.3
+    },
+    {
+      "step": 138,
+      "total": 1.000025749206543,
+      "node_count": 1.000025749206543,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.3
+    },
+    {
+      "step": 139,
+      "total": 1.0000247955322266,
+      "node_count": 1.0000247955322266,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 19.6
+    },
+    {
+      "step": 140,
+      "total": 4.000032424926758,
+      "node_count": 4.000032424926758,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 13.3
+    },
+    {
+      "step": 141,
+      "total": 1.000030517578125,
+      "node_count": 1.000030517578125,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 24.0
+    },
+    {
+      "step": 142,
+      "total": 0.5922825336456299,
+      "node_count": 0.5922825336456299,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 24.1
+    },
+    {
+      "step": 143,
+      "total": 1.0000314712524414,
+      "node_count": 1.0000314712524414,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 19.5
+    },
+    {
+      "step": 144,
+      "total": 4.000028610229492,
+      "node_count": 4.000028610229492,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 12.3
+    },
+    {
+      "step": 145,
+      "total": 1.0000190734863281,
+      "node_count": 1.0000190734863281,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.2
+    },
+    {
+      "step": 146,
+      "total": 1.0000152587890625,
+      "node_count": 1.0000152587890625,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.4
+    },
+    {
+      "step": 147,
+      "total": 4.000034332275391,
+      "node_count": 4.000034332275391,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 12.5
+    },
+    {
+      "step": 148,
+      "total": 3.822151484200731e-10,
+      "node_count": 3.822151484200731e-10,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 20.2
+    },
+    {
+      "step": 149,
+      "total": 1.000016212463379,
+      "node_count": 1.000016212463379,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.6
+    },
+    {
+      "step": 150,
+      "total": 1.0000438690185547,
+      "node_count": 1.0000438690185547,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.3
+    },
+    {
+      "step": 151,
+      "total": 1.0000171661376953,
+      "node_count": 1.0000171661376953,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.6
+    },
+    {
+      "step": 152,
+      "total": 1.000016212463379,
+      "node_count": 1.000016212463379,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.8
+    },
+    {
+      "step": 153,
+      "total": 1.5116205215454102,
+      "node_count": 1.5116205215454102,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 3,
+      "ms": 17.8
+    },
+    {
+      "step": 154,
+      "total": 0.5920616388320923,
+      "node_count": 0.5920616388320923,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 26.1
+    },
+    {
+      "step": 155,
+      "total": 0.5919516086578369,
+      "node_count": 0.5919516086578369,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 18.8
+    },
+    {
+      "step": 156,
+      "total": 1.1461906979093328e-09,
+      "node_count": 1.1461906979093328e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 19.5
+    },
+    {
+      "step": 157,
+      "total": 4.000043869018555,
+      "node_count": 4.000043869018555,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 17.9
+    },
+    {
+      "step": 158,
+      "total": 1.0000171661376953,
+      "node_count": 1.0000171661376953,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.1
+    },
+    {
+      "step": 159,
+      "total": 1.0000171661376953,
+      "node_count": 1.0000171661376953,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.1
+    },
+    {
+      "step": 160,
+      "total": 1.000016212463379,
+      "node_count": 1.000016212463379,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.6
+    },
+    {
+      "step": 161,
+      "total": 5.967194738332182e-09,
+      "node_count": 5.967194738332182e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 18.0
+    },
+    {
+      "step": 162,
+      "total": 3.3289779821643606e-09,
+      "node_count": 3.3289779821643606e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 18.1
+    },
+    {
+      "step": 163,
+      "total": 4.000030517578125,
+      "node_count": 4.000030517578125,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 14.2
+    },
+    {
+      "step": 164,
+      "total": 1.0000286102294922,
+      "node_count": 1.0000286102294922,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.2
+    },
+    {
+      "step": 165,
+      "total": 2.8623708203667775e-07,
+      "node_count": 2.8623708203667775e-07,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 19.0
+    },
+    {
+      "step": 166,
+      "total": 1.8417267710901797e-09,
+      "node_count": 1.8417267710901797e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 18.9
+    },
+    {
+      "step": 167,
+      "total": 1.0000171661376953,
+      "node_count": 1.0000171661376953,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.4
+    },
+    {
+      "step": 168,
+      "total": 1.0000152587890625,
+      "node_count": 1.0000152587890625,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 19.6
+    },
+    {
+      "step": 169,
+      "total": 1.0000228881835938,
+      "node_count": 1.0000228881835938,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 14.1
+    },
+    {
+      "step": 170,
+      "total": 1.0000152587890625,
+      "node_count": 1.0000152587890625,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.5
+    },
+    {
+      "step": 171,
+      "total": 1.0000228881835938,
+      "node_count": 1.0000228881835938,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.3
+    },
+    {
+      "step": 172,
+      "total": 2.0954757928848267e-09,
+      "node_count": 2.0954757928848267e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 16.8
+    },
+    {
+      "step": 173,
+      "total": 4.000026702880859,
+      "node_count": 4.000026702880859,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 13.7
+    },
+    {
+      "step": 174,
+      "total": 1.000020980834961,
+      "node_count": 1.000020980834961,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.7
+    },
+    {
+      "step": 175,
+      "total": 1.000016212463379,
+      "node_count": 1.000016212463379,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.0
+    },
+    {
+      "step": 176,
+      "total": 1.2433435916900635,
+      "node_count": 1.2433435916900635,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 3,
+      "ms": 18.1
+    },
+    {
+      "step": 177,
+      "total": 1.000025749206543,
+      "node_count": 1.000025749206543,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.4
+    },
+    {
+      "step": 178,
+      "total": 1.0000228881835938,
+      "node_count": 1.0000228881835938,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.8
+    },
+    {
+      "step": 179,
+      "total": 0.053030818700790405,
+      "node_count": 0.053030818700790405,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 4,
+      "ms": 19.0
+    },
+    {
+      "step": 180,
+      "total": 0.5924249291419983,
+      "node_count": 0.5924249291419983,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 5,
+      "ms": 24.0
+    },
+    {
+      "step": 181,
+      "total": 4.000024795532227,
+      "node_count": 4.000024795532227,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 12.0
+    },
+    {
+      "step": 182,
+      "total": 0.05302862450480461,
+      "node_count": 0.05302862450480461,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 4,
+      "ms": 16.9
+    },
+    {
+      "step": 183,
+      "total": 1.000016212463379,
+      "node_count": 1.000016212463379,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.0
+    },
+    {
+      "step": 184,
+      "total": 1.000014305114746,
+      "node_count": 1.000014305114746,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.5
+    },
+    {
+      "step": 185,
+      "total": 1.0000133514404297,
+      "node_count": 1.0000133514404297,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.3
+    },
+    {
+      "step": 186,
+      "total": 1.000014305114746,
+      "node_count": 1.000014305114746,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.0
+    },
+    {
+      "step": 187,
+      "total": 0.053157392889261246,
+      "node_count": 0.053157392889261246,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 1,
+      "gt_n_nodes": 4,
+      "ms": 20.6
+    },
+    {
+      "step": 188,
+      "total": 1.0000371932983398,
+      "node_count": 1.0000371932983398,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.0
+    },
+    {
+      "step": 189,
+      "total": 1.2450982467271388e-09,
+      "node_count": 1.2450982467271388e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 16.5
+    },
+    {
+      "step": 190,
+      "total": 1.0000152587890625,
+      "node_count": 1.0000152587890625,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 15.2
+    },
+    {
+      "step": 191,
+      "total": 1.4551915228366852e-09,
+      "node_count": 1.4551915228366852e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 17.5
+    },
+    {
+      "step": 192,
+      "total": 1.0000181198120117,
+      "node_count": 1.0000181198120117,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 22.1
+    },
+    {
+      "step": 193,
+      "total": 1.0000171661376953,
+      "node_count": 1.0000171661376953,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 18.9
+    },
+    {
+      "step": 194,
+      "total": 6.341224434436299e-09,
+      "node_count": 6.341224434436299e-09,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 4,
+      "ms": 21.5
+    },
+    {
+      "step": 195,
+      "total": 1.0000314712524414,
+      "node_count": 1.0000314712524414,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 20.4
+    },
+    {
+      "step": 196,
+      "total": 1.000014305114746,
+      "node_count": 1.000014305114746,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.9
+    },
+    {
+      "step": 197,
+      "total": 4.000026702880859,
+      "node_count": 4.000026702880859,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 2,
+      "ms": 14.7
+    },
+    {
+      "step": 198,
+      "total": 1.0000247955322266,
+      "node_count": 1.0000247955322266,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 21.3
+    },
+    {
+      "step": 199,
+      "total": 1.0000600814819336,
+      "node_count": 1.0000600814819336,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 16.2
+    },
+    {
+      "step": 200,
+      "total": 1.0000152587890625,
+      "node_count": 1.0000152587890625,
+      "relation": null,
+      "cre_coherence": null,
+      "n_valid_nodes": 0,
+      "gt_n_nodes": 3,
+      "ms": 17.3
+    }
+  ],
+  "final_comparisons": [
+    {
+      "text_preview": "'Suelo húmedo' causa tanto 'Daño infraestructura' como 'Lluvia'. Además, tanto '...",
+      "level": 2,
+      "gt_nodes": 4,
+      "pred_nodes": 0,
+      "gt_edges": 4,
+      "pred_edges": 0,
+      "gt_relations": [
+        "causes",
+        "enables"
+      ],
+      "pred_relations": [],
+      "node_delta": -4,
+      "edge_delta": -4
+    },
+    {
+      "text_preview": "Sabemos que: 'Fallo del sistema' causa 'Pérdida de datos'. Pregunta: ¿Qué causa ...",
+      "level": 1,
+      "gt_nodes": 2,
+      "pred_nodes": 0,
+      "gt_edges": 1,
+      "pred_edges": 0,
+      "gt_relations": [
+        "causes"
+      ],
+      "pred_relations": [],
+      "node_delta": -2,
+      "edge_delta": -1
+    },
+    {
+      "text_preview": "Sabemos que 'Cambio climático' posibilita 'Sequía' y que 'Contaminación' posibil...",
+      "level": 2,
+      "gt_nodes": 3,
+      "pred_nodes": 0,
+      "gt_edges": 2,
+      "pred_edges": 0,
+      "gt_relations": [
+        "enables"
+      ],
+      "pred_relations": [],
+      "node_delta": -3,
+      "edge_delta": -2
+    },
+    {
+      "text_preview": "Sabemos que: 'Infección' causa 'Fiebre'; 'Fiebre' lleva a 'Debilidad'. Pregunta:...",
+      "level": 1,
+      "gt_nodes": 3,
+      "pred_nodes": 0,
+      "gt_edges": 2,
+      "pred_edges": 0,
+      "gt_relations": [
+        "causes",
+        "leads_to"
+      ],
+      "pred_relations": [],
+      "node_delta": -3,
+      "edge_delta": -2
+    },
+    {
+      "text_preview": "Sabemos que: 'Infección' causa 'Fiebre'; 'Fiebre' lleva a 'Debilidad'. Pregunta:...",
+      "level": 1,
+      "gt_nodes": 3,
+      "pred_nodes": 0,
+      "gt_edges": 2,
+      "pred_edges": 0,
+      "gt_relations": [
+        "causes",
+        "leads_to"
+      ],
+      "pred_relations": [],
+      "node_delta": -3,
+      "edge_delta": -2
+    }
+  ]
+}

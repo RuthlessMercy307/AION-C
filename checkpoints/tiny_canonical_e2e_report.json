@@ -1,0 +1,47 @@
+{
+  "routing": {
+    "passed": true,
+    "coverage": 4,
+    "motors_seen": [
+      "axiom",
+      "cora",
+      "empathy",
+      "forge_c"
+    ]
+  },
+  "canonical": {
+    "passed": true,
+    "successes": 4,
+    "total": 4
+  },
+  "eos": {
+    "passed": true,
+    "stops": 2,
+    "lengths": [
+      139,
+      10
+    ]
+  },
+  "skill_mem": {
+    "passed": true,
+    "diff_skill": true,
+    "diff_mem": true
+  },
+  "world_model": {
+    "passed": true,
+    "sims_ok": 5,
+    "pipeline_ok": true
+  },
+  "neuro_symbol": {
+    "passed": true,
+    "axiom_ok": true,
+    "cora_ok": true,
+    "conflict_ok": true,
+    "integration_ok": true
+  },
+  "auto_learn": {
+    "passed": true,
+    "before": "tectonic plates moving and releasing stored energy al",
+    "after": "Rust is a systems programming language focused"
+  }
+}

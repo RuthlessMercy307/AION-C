@@ -1,0 +1,22 @@
+{
+  "config": "tiny",
+  "total_params": 5555449,
+  "total_elapsed_sec": 3.6981013,
+  "total_elapsed_min": 0.06,
+  "results": [
+    {
+      "name": "phase_2_motor:cora",
+      "trainable_params": 276664,
+      "total_params": 5555449,
+      "trainable_pct": 4.98,
+      "n_steps": 15,
+      "total_seconds": 1.61,
+      "sps": 9.2932,
+      "seconds_per_step": 0.108,
+      "mean_loss": 10.345,
+      "final_loss": 10.3378,
+      "peak_rss_gb": 0.44,
+      "notes": ""
+    }
+  ]
+}

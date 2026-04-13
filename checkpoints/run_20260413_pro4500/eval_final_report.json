@@ -1,0 +1,44 @@
+{
+  "checkpoint": "checkpoints/aion_1b_sequential.pt",
+  "timestamp": 1776107455.6943376,
+  "n_params": 1100935897,
+  "canonical_eval": {
+    "exact_match": 0.02,
+    "bleu": 0.0103,
+    "routing_accuracy": 0.2,
+    "combined": 0.0901,
+    "per_domain": {
+      "cora": {
+        "n": 10,
+        "exact": 0.0,
+        "bleu": 0.0171,
+        "routing": 0.0
+      },
+      "forge_c": {
+        "n": 10,
+        "exact": 0.0,
+        "bleu": 0.0058,
+        "routing": 0.6
+      },
+      "axiom": {
+        "n": 10,
+        "exact": 0.1,
+        "bleu": 0.0015,
+        "routing": 0.0
+      },
+      "muse": {
+        "n": 10,
+        "exact": 0.0,
+        "bleu": 0.0137,
+        "routing": 0.4
+      },
+      "empathy": {
+        "n": 10,
+        "exact": 0.0,
+        "bleu": 0.0134,
+        "routing": 0.0
+      }
+    },
+    "elapsed_sec": 840.89
+  }
+}

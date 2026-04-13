@@ -1,0 +1,50 @@
+[
+  {
+    "config": "tiny",
+    "params_analytical": 1524985,
+    "params_real": 1524985,
+    "vram_est_infer": 0.00609994,
+    "vram_est_train": 0.01829982,
+    "vram_real_infer": 0.00609994,
+    "vram_real_train": 0.03659964,
+    "fwd_ms": 68.60789999999976,
+    "fwd_thr": 43.72674283865284,
+    "bwd_ms": 190.06413333333327,
+    "bwd_thr": 15.784145842701522,
+    "fits_h200": true,
+    "vram_err_pct": 0.0
+  },
+  {
+    "config": "medium (medium_768_l6)",
+    "params_analytical": 407451889,
+    "params_real": 341706849,
+    "vram_est_infer": 1.629807556,
+    "vram_est_train": 4.889422668,
+    "vram_real_infer": 1.366827396,
+    "vram_real_train": 8.200964376,
+    "fwd_ms": 754.4356599999993,
+    "fwd_thr": 3.9764822357416176,
+    "bwd_ms": 12658.359400000001,
+    "bwd_thr": 0.23699753697939716,
+    "fits_h200": true,
+    "vram_err_pct": 19.240187954207506
+  },
+  {
+    "config": "production (3.437B)",
+    "params_analytical": 3437416049,
+    "params_real": null,
+    "vram_est_infer": 13.749664196,
+    "vram_est_train": 41.248992588,
+    "vram_real_infer": null,
+    "vram_real_train": null,
+    "vram_extrap_infer": 12.640364856670407,
+    "vram_extrap_train": 37.92109457001123,
+    "fwd_ms": null,
+    "fwd_thr": null,
+    "bwd_ms": null,
+    "bwd_thr": null,
+    "fits_h200": true,
+    "fits_h200_train": true,
+    "n_h200_needed": 1
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "config": "1b",
+  "total_params": 1100935897,
+  "total_elapsed_sec": 859.4099624789087,
+  "total_elapsed_min": 14.32,
+  "results": [
+    {
+      "name": "phase_3_orchestrator",
+      "trainable_params": 658437,
+      "total_params": 1100935897,
+      "trainable_pct": 0.06,
+      "n_steps": 1500,
+      "total_seconds": 223.88,
+      "sps": 6.7002,
+      "seconds_per_step": 0.149,
+      "mean_loss": 1.6701,
+      "final_loss": 3.7569,
+      "peak_rss_gb": 1.87,
+      "notes": ""
+    },
+    {
+      "name": "phase_4_adapters",
+      "trainable_params": 327680,
+      "total_params": 1101263577,
+      "trainable_pct": 0.03,
+      "n_steps": 1500,
+      "total_seconds": 620.41,
+      "sps": 2.4178,
+      "seconds_per_step": 0.414,
+      "mean_loss": 2.0608,
+      "final_loss": 1.4793,
+      "peak_rss_gb": 2.01,
+      "notes": "5 LoRA packs attached"
+    }
+  ]
+}

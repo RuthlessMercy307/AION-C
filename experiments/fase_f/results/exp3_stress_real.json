@@ -1,0 +1,41 @@
+{
+  "experiment_id": "exp3_stress_real",
+  "name": "Stress test 1000 episodes",
+  "started_at": 1775893311.7999835,
+  "ended_at": 1775893311.838488,
+  "passed": true,
+  "summary": "ran 1000 episodes in 36ms; all 6 phases=True, error=None; compress clusters=7",
+  "metrics": {
+    "episodes": 1000,
+    "all_six_phases": true,
+    "duration_ms": 35.5072021484375,
+    "prune_stats": {
+      "total": 1000,
+      "kept": 449,
+      "promoted": 551,
+      "compressed": 0,
+      "deleted": 0,
+      "mean_retain_score": 0.8057321314344792
+    },
+    "compress_clusters": 7
+  },
+  "details": {
+    "phase_names": [
+      "recollect",
+      "score",
+      "prune",
+      "compress",
+      "consolidate",
+      "followups"
+    ],
+    "phase_summaries": [
+      "1000 episodios agrupados en 8 temas",
+      "score medio 0.57 sobre 1000 episodios",
+      "mantenidos 449, descartados 0",
+      "7 clusters formados",
+      "195 conceptos candidatos a consolidaci\u00f3n",
+      "5 preguntas abiertas para ma\u00f1ana"
+    ]
+  },
+  "duration_ms": 38.504600524902344
+}

@@ -1,0 +1,68 @@
+{
+  "experiment_id": "exp4_compositional_real",
+  "name": "Compositional test with real tiny",
+  "started_at": 1775893311.8444877,
+  "ended_at": 1775893314.1704538,
+  "passed": true,
+  "summary": "4/4 sequences match, no_crashes=True",
+  "metrics": {
+    "total": 4,
+    "sequence_matches": 4,
+    "no_crashes": true
+  },
+  "details": {
+    "results": [
+      {
+        "query": "escribe una funci\u00f3n python",
+        "expected": [
+          "forge_c"
+        ],
+        "got_sequence": [
+          "forge_c"
+        ],
+        "sequence_match": true,
+        "crashed": false,
+        "output_len": 5
+      },
+      {
+        "query": "calcula 15% de 240",
+        "expected": [
+          "axiom"
+        ],
+        "got_sequence": [
+          "axiom"
+        ],
+        "sequence_match": true,
+        "crashed": false,
+        "output_len": 5
+      },
+      {
+        "query": "por qu\u00e9 llueve",
+        "expected": [
+          "cora"
+        ],
+        "got_sequence": [
+          "cora"
+        ],
+        "sequence_match": true,
+        "crashed": false,
+        "output_len": 78
+      },
+      {
+        "query": "explica este c\u00f3digo como cuento",
+        "expected": [
+          "forge_c",
+          "muse"
+        ],
+        "got_sequence": [
+          "forge_c",
+          "muse"
+        ],
+        "sequence_match": true,
+        "crashed": false,
+        "output_len": 5
+      }
+    ]
+  },
+  "duration_ms": 2325.9661197662354
+}

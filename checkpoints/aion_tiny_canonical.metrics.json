@@ -1,0 +1,30 @@
+{
+  "best_combined": 0.4002,
+  "best_step": 25,
+  "n_params": 5578849,
+  "config": "tiny",
+  "history": [
+    {
+      "step": 25,
+      "lm_loss": 10.37363475561142,
+      "routing_acc": 45.75,
+      "gen_exact_match": 0.0,
+      "gen_bleu": 0.001,
+      "gen_routing": 1.0,
+      "gen_combined": 0.4002,
+      "eval_seconds": 8.65,
+      "lr": 8.333333333333334e-06
+    },
+    {
+      "step": 50,
+      "lm_loss": 10.32325291633606,
+      "routing_acc": 44.0,
+      "gen_exact_match": 0.0,
+      "gen_bleu": 0.001,
+      "gen_routing": 1.0,
+      "gen_combined": 0.4002,
+      "eval_seconds": 8.63,
+      "lr": 1.6666666666666667e-05
+    }
+  ]
+}

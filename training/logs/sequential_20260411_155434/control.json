@@ -1,0 +1,9 @@
+{
+  "action": "pause",
+  "author": "watchdog",
+  "timestamp": 1775933808.0632167,
+  "reasons": [
+    "RAM used 15.7GB > 15.0GB"
+  ],
+  "message": "CRITICAL: RAM used 15.7GB > 15.0GB"
+}

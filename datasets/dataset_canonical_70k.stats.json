@@ -1,0 +1,30 @@
+{
+  "total": 70000,
+  "by_type": {
+    "legacy": 57500,
+    "tool": 3000,
+    "identity": 500,
+    "multi_turn": 5000,
+    "skill": 2000,
+    "mem": 2000
+  },
+  "by_domain": {
+    "empathy": 9205,
+    "forge_c": 15672,
+    "general": 8253,
+    "axiom": 12656,
+    "cora": 15080,
+    "muse": 9134
+  },
+  "by_language": {
+    "en": 39972,
+    "es": 30028
+  },
+  "with_skill": 2000,
+  "with_mem": 54500,
+  "with_tool": 3000,
+  "multi_turn": 5000,
+  "eos_count": 70000,
+  "eos_missing": 0,
+  "skill_or_mem_pct": 0.8071
+}
